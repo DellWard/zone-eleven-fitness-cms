@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_testimonial_testimonials",
+  "info": {
+    "displayName": "testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}

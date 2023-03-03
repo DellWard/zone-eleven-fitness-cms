@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_sliders",
+  "info": {
+    "displayName": "Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slide": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "program.slide"
+    },
+    "programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::program.program"
+    }
+  }
+}

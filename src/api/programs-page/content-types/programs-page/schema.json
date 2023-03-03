@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "programs_pages",
+  "info": {
+    "singularName": "programs-page",
+    "pluralName": "programs-pages",
+    "displayName": "Programs Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::program.program"
+    }
+  }
+}
