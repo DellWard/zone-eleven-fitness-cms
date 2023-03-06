@@ -9,7 +9,7 @@
       user: env('DATABASE_USERNAME'),
       password: env('DATABASE_PASSWORD'),
       schema: env('DATABASE_SCHEMA'), // Not required
-      ssl: false,
+      ssl: env.bool('DATABASE_SSL'), // Not required
     },
     debug: false,
   },
