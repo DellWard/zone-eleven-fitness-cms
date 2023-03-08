@@ -19,6 +19,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::program.program"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
