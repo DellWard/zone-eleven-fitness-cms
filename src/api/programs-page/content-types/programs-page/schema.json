@@ -4,7 +4,8 @@
   "info": {
     "singularName": "programs-page",
     "pluralName": "programs-pages",
-    "displayName": "Programs Page"
+    "displayName": "Programs Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::program.program"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
